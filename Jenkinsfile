@@ -5,6 +5,7 @@ pipeline {
         booleanParam(name: 'Port_checking', defaultValue: false, description: 'Set to true to execute the script on the remote server')
     }
 
+    // asd
     stages {
         stage('Test-build-stg') {
             steps {
