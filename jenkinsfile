@@ -36,6 +36,7 @@ pipeline {
     post {
         always {
             // Clean workdir or perform other cleanup tasks
+            sh 'rm -rf *'
             sh 'ls -l'
         }
     }
